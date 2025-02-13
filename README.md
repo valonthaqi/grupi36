@@ -1,5 +1,5 @@
 # Lojtaret Sportiv
-Përshkrimi:
+Përshkrimi i Projektit:
 
 Te shkruhet programi ne C++ i cili paraqet lojtaret e basketbollit dhe futbollit, ku paraqiten per secilin lojtar emrin, sportin, ekipin dhe pozicionin ku luan, si dhe vitin e lindjes. Ne fund te shtypen lojetaret, te paraqitet pozita ku luan dhe sa lojetar luajn ne at pozicion.
 
