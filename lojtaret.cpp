@@ -22,3 +22,10 @@ struct Lojtari {
     Pozicioni pozicioni;
     int viti_lindjes;
 };
+
+void shtypLojtaret(const Lojtari lojtaret[], int n) {
+    for (int i = 0; i < n; i++) {
+        cout << lojtaret[i].emri << " (" << lojtaret[i].sporti << "), "
+             << lojtaret[i].ekipi << ", " << lojtaret[i].viti_lindjes << endl;
+    }
+}
