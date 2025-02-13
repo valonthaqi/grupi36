@@ -29,3 +29,37 @@ void shtypLojtaret(const Lojtari lojtaret[], int n) {
              << lojtaret[i].ekipi << ", " << lojtaret[i].viti_lindjes << endl;
     }
 }
+
+
+void lojtaret_ne_pozite(const Lojtari lojtaret[], int n, const string & pozita) {
+    int count = 0;
+    cout << "Lojtaret ne poziten: " << pozita << endl;
+    for (int i = 0; i < n; i++) {
+        string pozicioniStr;
+        switch (lojtaret[i].pozicioni) {
+            case center: 
+             pozicioniStr = "center"; break;
+            case power_forward: 
+             pozicioniStr = "power_forward"; break;
+            case small_forward: 
+             pozicioniStr = "small_forward"; break;
+            case point_guard: 
+             pozicioniStr = "point_guard"; break;
+            case shooting_guard: 
+             pozicioniStr = "shooting_guard"; break;
+            case goalkeeper: 
+             pozicioniStr = "goalkeeper"; break;
+            case defenders: 
+             pozicioniStr = "defenders"; break;
+            case midfielders: 
+             pozicioniStr = "midfielders"; break;
+            case forwards: 
+             pozicioniStr = "forwards"; break;
+        }
+        if (pozicioniStr == pozita) {
+            cout << "- " << lojtaret[i].emri << " (" << lojtaret[i].ekipi << ")" << endl;
+            count++;
+        }
+    }
+    cout << "Numri i lojtareve ne kete pozite: " << count << endl;
+}
