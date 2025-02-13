@@ -9,14 +9,20 @@ Te shkruhet programi ne C++ i cili paraqet lojtaret e basketbollit dhe futbollit
 
 3. Funksioni shtypLojtaret: Te shkruhet funksioni me emrin shtyp I cili pranon nje parameter te tipit Lojtari dhe nuk kthen rezultat.
 Ky funksion paraqet:
+
 Lista e lojtareve: LeBron James (Basketball), Lakers, 1984
+
 Stephen Curry (Basketball),Warriors, 1988
+
 Devin Booker (Basketball), Phoenix Suns, 1996
+
 Lionel Messi (Football), Inter Miami, 1987
+
 Cristiano Ronaldo (Football), Al-Nassr, 1985
+
 Virgil van Dijk (Football), Liverpool, 1991
 
-4. Funksioni lojtaret_ne_pozite: void shtypLojtaret(const Lojtari lojtaret[], int n)
+5. Funksioni lojtaret_ne_pozite: void shtypLojtaret(const Lojtari lojtaret[], int n)
 Ky funksion numëron dhe shtyp lojtarët që mbajnë një pozite të caktuar, duke marrë pozitat e mundshme si argument dhe duke i krahasuar ato me pozitat e ruajtura në enum. Ai gjithashtu numëron se sa lojtarë janë të pozicionuar në atë pozite dhe e shtyp këtë informacion.
 
-5.Funksioni main: Ky funksion krijon një varg lojtarësh të tipit Lojtari dhe inicializon ata me të dhëna të ndryshme. Më pas, ai thërret funksionin shtypLojtaret për të shtypur të dhënat e të gjithë lojtarëve dhe përdor funksionin lojtaret_ne_pozite për të gjetur dhe shtypur lojtarët në një pozite të caktuar, të dhënë nga përdoruesi.
+6. Funksioni main: Ky funksion krijon një varg lojtarësh të tipit Lojtari dhe inicializon ata me të dhëna të ndryshme. Më pas, ai thërret funksionin shtypLojtaret për të shtypur të dhënat e të gjithë lojtarëve dhe përdor funksionin lojtaret_ne_pozite për të gjetur dhe shtypur lojtarët në një pozite të caktuar, të dhënë nga përdoruesi.
