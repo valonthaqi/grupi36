@@ -22,7 +22,7 @@ Cristiano Ronaldo (Football), Al-Nassr, 1985
 
 Virgil van Dijk (Football), Liverpool, 1991
 
-5. Funksioni lojtaret_ne_pozite: void shtypLojtaret(const Lojtari lojtaret[], int n)
+4. Funksioni lojtaret_ne_pozite: void shtypLojtaret(const Lojtari lojtaret[], int n)
 Ky funksion numëron dhe shtyp lojtarët që mbajnë një pozite të caktuar, duke marrë pozitat e mundshme si argument dhe duke i krahasuar ato me pozitat e ruajtura në enum. Ai gjithashtu numëron se sa lojtarë janë të pozicionuar në atë pozite dhe e shtyp këtë informacion.
 
-6. Funksioni main: Ky funksion krijon një varg lojtarësh të tipit Lojtari dhe inicializon ata me të dhëna të ndryshme. Më pas, ai thërret funksionin shtypLojtaret për të shtypur të dhënat e të gjithë lojtarëve dhe përdor funksionin lojtaret_ne_pozite për të gjetur dhe shtypur lojtarët në një pozite të caktuar, të dhënë nga përdoruesi.
+5. Funksioni main: Ky funksion krijon një varg lojtarësh të tipit Lojtari dhe inicializon ata me të dhëna të ndryshme. Më pas, ai thërret funksionin shtypLojtaret për të shtypur të dhënat e të gjithë lojtarëve dhe përdor funksionin lojtaret_ne_pozite për të gjetur dhe shtypur lojtarët në një pozite të caktuar, të dhënë nga përdoruesi.
