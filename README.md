@@ -10,7 +10,9 @@ Te shkruhet programi ne C++ i cili paraqet lojtaret e basketbollit dhe futbollit
 3. Funksioni shtypLojtaret: Te shkruhet funksioni me emrin shtyp I cili pranon nje parameter te tipit Lojtari dhe nuk kthen rezultat.
 Ky funksion paraqet:
 
-Lista e lojtareve: LeBron James (Basketball), Lakers, 1984
+Lista e lojtareve: 
+
+LeBron James (Basketball), Lakers, 1984
 
 Stephen Curry (Basketball),Warriors, 1988
 
